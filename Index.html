@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R.B 13:9</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar start -->
+
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar">    
+      <div class="container">
+        <a class="navbar-brand" href="#"><b>R.B</b></a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">R.B</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#profil">Profil</a>
+              <a class="nav-link" href="#porto">Portofolio</a>
+              <a class="nav-link" href="#serti">Sertifikat</a>
+              <a class="nav-link" href="#kontak">Contact</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- heros start -->
+
+    <section
+      id="home"
+      class="hero w-100 h-100 mx-auto text-center d-flex justify-content-center align-items-center text-white"
+    >
+      <main>
+        <h1>
+          <img
+            class="hero-pfp"
+            src="img/WhatsApp Image 2024-12-25 at 11.20.15.jpeg"
+            width="20%"
+            alt=""
+          />
+        </h1>
+
+        <h4>
+          kita belajar menguasai teknologi, bukan dikuasai olehnya.
+          Programmer<br />
+          sejati adalah yang mampu memanfaatkan layar untuk solusi.
+        </h4>
+
+        <a href="#profil" class="btn btn-lg mt-4">Lihat Portofolio</a>
+      </main>
+    </section>
+
+    <!-- heros end -->
+
+    <!-- about start -->
+
+    <section
+      id="profil"
+      class="container p-3 text-center justify-content-center d-flex tentang"
+    >
+      <h1>Profil</h1>
+      <br />
+      <div class="row justify-content-center bio">
+        <div class="col-md-8 col-lg-6 img-me">
+          <img src="img/sosokhitam.jpg" width="300" />
+        </div>
+
+        <div class="col-md-8 col-lg-6 biodata">
+          <h2>Deskripsi Diri</h2>
+          <p>
+            Nama : Rais Bima Prayata <br />
+            TTL : Bogor, 2 Juli 2009 <br />
+            Domisili : Sukaraja, Bogor <br />
+            Status : pelajar <br />
+            Jurusan : Rekayasa Perangkat Lunak
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- about end -->
+
+    <!-- portofolio start -->
+
+    <section id="porto" class="py-5 portofolio">
+      <div class="container">
+        <h1 class="text-center mb-4">Portofolio</h1>
+        <br>
+
+        <div
+          id="portfolioCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- Indicators (bulet bawah) -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#portfolioCarousel bg-black"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#portfolioCarousel bg-black"
+              data-bs-slide-to="1"
+            ></button>
+            <!-- kalau ada slide tambahan, tinggal tambah button -->
+          </div>
+
+          <div class="carousel-inner repo">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row">
+                <!-- 3 atas -->
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Modul-1-UI-Website-Figma-" class="card">
+                    <img
+                      src="porto/Modul-1-UI-Website-Figma-.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>UI Website Figma</b></div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Modul-2-Web-Company-Profile-Tech-Educa" class="card">
+                    <img
+                      src="porto/Modul-2-Web-Company-Profile-Tech-Educa.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Web Company TechEduca</b></div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Modul-3-Hasil-Sertikom" class="card">
+                    <img
+                      src="porto/Modul-3-Hasil-Sertikom.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Website Online Travel</b></div>
+                  </a>
+                </div>
+                <!-- 3 bawah -->
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Modul-4-Penerapan-Bootstrap-1-Portofolio" class="card">
+                    <img
+                      src="porto/Modul-4-Penerapan-Bootstrap-1-Portofolio.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Portofolio Bootstrap</b></div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Modul-5-Penerapan-Bootstrap-2-Wedding" class="card">
+                    <img
+                      src="porto/Modul-5-Penerapan-Bootstrap-2-Wedding.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Wedding Invitation Website</b></div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Modul-6-CMS-Wordpress-Web-Company-Profile" class="card">
+                    <img
+                      src="porto/Modul-6-CMS-Wordpress-Web-Company-Profile.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Website Kuliner</b></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row">
+                <!-- 3 atas -->
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Modul-7-Basic-Programing-php" class="card">
+                    <img
+                      src="porto/Modul-7-Basic-Programing-php.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Basic Programing PHP</b></div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Portofolio" class="card">
+                    <img
+                      src="porto/Portofolio.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Website    Portofolio</b></div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Baherindo" class="card">
+                    <img
+                      src="porto/Baherindo.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Basic Programing Laravel</b></div>
+                  </a>
+                </div>
+                <!-- 3 bawah -->
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/only-cars" class="card">
+                    <img
+                      src="porto/only-cars.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Website Event</b></div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/manajemen-inventaris" class="card">
+                    <img
+                      src="porto/manajemen-inventaris.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Breeze Installation</b></div>
+                  </a>
+                </div>
+                <div class="col-md-4 mb-4">
+                  <a href="https://github.com/m-soid/Latihan-Laravel" class="card">
+                    <img
+                      src="porto/Latihan-Laravel.png"
+                      class="card-img-top"
+                    />
+                    <div class="card-body text-start"><b>Website Pinjaman Barang</b></div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tombol Navigasi -->
+          <button
+            class="carousel-control-prev carousel-button"
+            type="button"
+            data-bs-target="#portfolioCarousel"
+            data-bs-slide="prev"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-chevron-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+              />
+            </svg>
+          </button>
+          <button
+            class="carousel-control-next carousel-button"
+            type="button"
+            data-bs-target="#portfolioCarousel"
+            data-bs-slide="next"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- portofolio end -->
+
+    <!-- sertifikat start -->
+
+    <section id="serti" class="py-5 portofolio">
+      <div class="container">
+        <h1 class="text-center mb-4">Sertifikat</h1>
+        <br>
+
+        <div
+          id="sertifikatcarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <!-- Indicators (bulet bawah) -->
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#sertifikatcarousel bg-black"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#sertifikatcarousel bg-black"
+              data-bs-slide-to="1"
+            ></button>
+            <!-- kalau ada slide tambahan, tinggal tambah button -->
+          </div>
+
+          <div class="carousel-inner repo">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row">
+                <!-- 3 atas -->
+                <div class="col-md-6">
+                  <a href="#" class="card card-serti">
+                    <img
+                      src="serti/serti1.jpg"
+                      class="card-img-top"
+                    />
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="#" class="card card-serti">
+                    <img
+                      src="serti/serti1b.jpg"
+                      class="card-img-top"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <div class="row">
+                <!-- 3 atas -->
+                <div class="col-md-6">
+                  <a href="#" class="card card-serti">
+                    <img
+                      src="serti/serti2.jpg"
+                      class="card-img-top"
+                    />
+                  </a>
+                </div>
+                <div class="col-md-6">
+                  <a href="#" class="card card-serti">
+                    <img
+                      src="serti/serti2b.jpg"
+                      class="card-img-top"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tombol Navigasi -->
+          <button
+            class="carousel-control-prev carousel-button carousel-serti"
+            type="button"
+            data-bs-target="#sertifikatcarousel"
+            data-bs-slide="prev"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-chevron-left"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0"
+              />
+            </svg>
+          </button>
+          <button
+            class="carousel-control-next carousel-button carousel-serti"
+            type="button"
+            data-bs-target="#sertifikatcarousel"
+            data-bs-slide="next"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-chevron-right"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
+              />
+            </svg>
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- sertifikat end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Script -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bs5-lightbox@1.8.3/dist/index.bundle.min.js"></script>
+
+    <!-- script navbar -->
+
+    <script>
+      const hamburger = document.querySelector(".navbar-toggler");
+      const stickyTop = document.querySelector(".sticky-top");
+      const offcanvas = document.querySelector(".offcanvas");
+
+      offcanvas.addEventListener("show.bs.offcanvas", function () {
+        stickyTop.style.overflow = "visible";
+      });
+
+      offcanvas.addEventListener("hidden.bs.offcanvas", function () {
+        stickyTop.style.overflow = "hidden";
+      });
+    </script>
+  </body>
+</html>
